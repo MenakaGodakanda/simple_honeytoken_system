@@ -18,13 +18,14 @@ This script monitors interactions with the honeyfile (`honeyfile.txt`) using `in
 #### Explanation:
 - `import subprocess` and `import datetime`: Importing required modules.
 - `LOG_FILE` and `HONEYFILE`: Defining the log file path and honeyfile path.
-- `log_interaction(event)`: A function to append interaction events to the log file with a timestamp.
+- `log_interaction(event, file)`: A function to append interaction events to the log file with a timestamp.
 - `monitor_honeyfile()`:
     - `subprocess.Popen`: Runs the `inotifywait` command to monitor the honeyfile.
     - `-m`: Stands for monitor mode, allowing continuous monitoring.
-    - `--format '%e'`: Formats the output to only show the event type.
-    - `--event 'open,modify,delete'`: Specifies the events to monitor.
+    - `--format '%e %w%f'`: Formats the output to show the event type and the file path.
+    - `--event 'open,modify,delete,create'`: Specifies the events to monitor.
     - `For loop`: Reads and logs each event from the subprocess output.
+- The `if __name__ == "__main__":` block ensures that the monitor_honeyfile function is called only if the script is run as the main module.
 
 ### Reads the Log and Generates a Visualization Plot (`visualize.py`)
 This script reads the log file and generates a visualization of the interactions using `matplotlib`.

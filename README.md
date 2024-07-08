@@ -70,7 +70,7 @@ python3 monitor.py
 python3 visualize.py
 ```
 - Output should look like this:<br><br>
-![honeyfile_interactions](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/e3cb04ae-c304-4d83-924b-2b5bc94cf49a)
+![honeyfile_interactions](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/e3d06146-b868-40b5-abf8-ab6c49fc5804)
 
 3. **Start the Web Server**
 - The `app.py` script will create a simple web server to display the log and the visualization.

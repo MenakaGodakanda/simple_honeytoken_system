@@ -1,6 +1,7 @@
 # Simple Honeytoken System
 
-The Simple Honeytoken System is a security project designed to create a decoy file (honeyfile), monitor interactions with it, log those interactions, and visualize the log data. This project aims to detect unauthorized access or suspicious activities by using open-source tools.
+The Simple Honeytoken System is a security project designed to create a decoy file (honeyfile), monitor interactions with it, log those interactions, and visualize the log data. This project aims to detect unauthorized access or suspicious activities by using open-source tools.<br>
+<a href="https://github.com/MenakaGodakanda/simple_honeytoken_system/blob/main/Project_Description.md">Project Description</a>
 
 ## Overview
 <img width="1391" alt="Screenshot 2024-07-08 at 8 24 17 PM" src="https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/a2665012-830f-4836-b9ba-3ec3c2aebf77">
@@ -69,7 +70,7 @@ python3 monitor.py
 ```bash
 python3 visualize.py
 ```
-- Output should look like this:<br><br>
+- Output of `honeyfile_interactions.png` should look like this:<br><br>
 ![honeyfile_interactions](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/e3d06146-b868-40b5-abf8-ab6c49fc5804)
 
 3. **Start the Web Server**
@@ -82,7 +83,7 @@ python3 app.py
 
 4. **View Logs and Visualization**
 - Open your web browser and navigate to `http://127.0.0.1:5000/` to view the log content and the visualization plot.
-- Output of the web browser showing `Logs of Interactions`:<br><br>
+- Output of the web browser showing `Log of Interactions`:<br><br>
 ![Screenshot 2024-07-08 230646](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/159ae839-b0ad-48fb-be83-d77b4b469a71) <br><br><br>
 - Output of the web browser showing `Interaction Visualization`:<br><br>
 ![Screenshot 2024-07-08 230654](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/433405e8-3061-480d-be8d-4d5bfc345ca6)

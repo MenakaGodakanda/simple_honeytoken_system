@@ -75,11 +75,14 @@ python3 visualize.py
 ```bash
 python3 app.py
 ```
+- Output should look like this:<br><br>
+![Screenshot 2024-07-08 200617](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/a0fd0c4d-5ad3-4313-ae2d-bb2290d7bd51)
 
 4. **View Logs and Visualization**
 - Open your web browser and navigate to `http://127.0.0.1:5000/` to view the log content and the visualization plot.
-- Output should look like this:
-
+- Output should look like this:<br><br>
+![Screenshot 2024-07-08 203312](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/de6cb5b0-b566-4a0f-98bf-e3c2b1ca527b) <br><br><br>
+![Screenshot 2024-07-08 203320](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/91fda2f9-a386-4417-9733-64ebf6f4515f)
 ## Directory Structure
 ```
 simple_honeytoken_system/

@@ -59,6 +59,8 @@ pip install matplotlib flask
 ```bash
 python3 monitor.py
 ```
+- Open `honeyfile.txt` several times for a period of time.
+- Open `honeyfile_log.txt` and verify the log file is recording interactions of `honeyfile.txt`.
 
 2. **Generate Visualization**
 - The `visualize.py` script will read the log file and create a visualization of the interactions.

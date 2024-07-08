@@ -59,7 +59,6 @@ pip install matplotlib flask
 ```bash
 python3 monitor.py
 ```
-- Output should look like this:
 
 2. **Generate Visualization**
 - The `visualize.py` script will read the log file and create a visualization of the interactions.
@@ -68,7 +67,8 @@ python3 monitor.py
 ```bash
 python3 visualize.py
 ```
-- Output should look like this:
+- Output should look like this:<br><br>
+![honeyfile_interactions](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/e3cb04ae-c304-4d83-924b-2b5bc94cf49a)
 
 3. **Start the Web Server**
 - The `app.py` script will create a simple web server to display the log and the visualization.
@@ -80,8 +80,9 @@ python3 app.py
 
 4. **View Logs and Visualization**
 - Open your web browser and navigate to `http://127.0.0.1:5000/` to view the log content and the visualization plot.
-- Output should look like this:<br><br>
+- Output of the web browser showing `Logs of Interactions`:<br><br>
 ![Screenshot 2024-07-08 203312](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/de6cb5b0-b566-4a0f-98bf-e3c2b1ca527b) <br><br><br>
+- Output of the web browser showing `Interaction Visualization`:<br><br>
 ![Screenshot 2024-07-08 203320](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/91fda2f9-a386-4417-9733-64ebf6f4515f)
 ## Directory Structure
 ```

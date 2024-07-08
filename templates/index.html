@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Honeytoken System</title>
+</head>
+<body>
+    <h1>Honeytoken System</h1>
+    <h2>Log of Interactions</h2>
+    <pre>
+        {% for line in log_content %}
+            {{ line }}
+        {% endfor %}
+    </pre>
+    <h2>Interaction Visualization</h2>
+    <img src="/static/honeyfile_interactions.png" alt="Honeyfile Interactions">
+</body>
+</html>

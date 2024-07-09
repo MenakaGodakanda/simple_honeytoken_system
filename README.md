@@ -60,7 +60,32 @@ pip install matplotlib flask
 ```bash
 python3 monitor.py
 ```
-- Open `honeyfile.txt` several times for a period of time.
+- In another terminal, test interaction of `honeyfile.txt`.
+    - Open the Honeyfile:
+    ```bash
+    cat honeyfile.txt
+    ```
+    ![Screenshot 2024-07-09 120045](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/5cd888ab-70b0-4dda-965c-3360352d6e96)
+
+
+    - Modify the Honeyfile:
+    ```bash
+    echo "New Line" >> honeyfile.txt
+    ```
+    ![Screenshot 2024-07-09 121945](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/34d4fadb-085e-48a5-a338-6f61c3ba4ff4)
+
+    - Delete the Honeyfile:
+    ```bash
+    rm honeyfile.txt
+    ```
+    ![Screenshot 2024-07-09 120122](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/d5f79fc5-63bc-4fd0-845b-f467dc5cba82)
+
+    - Recreate the Honeyfile:
+    ```bash
+    echo "Confidential Information" > honeyfile.txt
+    ```
+    ![Screenshot 2024-07-09 120829](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/a5b77565-ec8e-4907-857d-9731df8ab3e6)
+
 - Open `honeyfile_log.txt` and verify the log file is recording interactions of `honeyfile.txt`.
 
 2. **Generate Visualization**
@@ -84,7 +109,7 @@ python3 app.py
 4. **View Logs and Visualization**
 - Open your web browser and navigate to `http://127.0.0.1:5000/` to view the log content and the visualization plot.
 - Output of the web browser showing `Log of Interactions`:<br><br>
-![Screenshot 2024-07-08 230646](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/159ae839-b0ad-48fb-be83-d77b4b469a71) <br><br><br>
+![Screenshot 2024-07-08 230646](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/a7b5c3fe-474a-4cc5-b173-8c543f368c55) <br>
 - Output of the web browser showing `Interaction Visualization`:<br><br>
 ![Screenshot 2024-07-08 230654](https://github.com/MenakaGodakanda/simple_honeytoken_system/assets/156875412/433405e8-3061-480d-be8d-4d5bfc345ca6)
 
